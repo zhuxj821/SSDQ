@@ -12,15 +12,15 @@ Start from building the environment
 
 ### 1. Clone the Repository
 
-git clone https://github.com/YourUsername/SSDQ.git
+    git clone https://github.com/Beiming149/SSDQ.git
 
-cd SSDQ
+    cd SSDQ
 
 ### 2. Install Dependencies
 
 Make sure you are using Python 3.8+ and run:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### 3.Datasets
 
@@ -38,19 +38,18 @@ dataset_root: /data
 
 To train the SSDQ model from scratch:
 
-bash run.sh 
+    bash run.sh 
 
 You can also resume training:
 
-change run.sh  
+change run.sh  e.g.
 
-e.g.
-#!/bin/bash
-...
-python train.py \
-  --config config/train.yaml \
-  --checkpoint_dir checkpoints/your_path \
-  --train_from_last_checkpoint 1
+    #!/bin/bash
+    ...
+    python train.py \
+      --config config/train.yaml \
+      --checkpoint_dir checkpoints/your_path \
+      --train_from_last_checkpoint 1
   
 ###  Acknowledgements
 
