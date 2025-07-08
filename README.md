@@ -1,5 +1,5 @@
-# SSDQ
-SSDQ: Target Speech Extraction via Semantic and Spatial Dual Querying
+# SSDQ 
+SSDQ: Target Speaker Extraction via Semantic and Spatial Dual Querying (IEEE Signal Processing Letters)
 
 This repository contains the official implementation of SSDQ, a framework for target speech extraction that leverages semantic and spatial dual querying strategies.
 
