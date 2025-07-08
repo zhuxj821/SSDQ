@@ -1,5 +1,5 @@
 # SSDQ 
-SSDQ: Target Speaker Extraction via Semantic and Spatial Dual Querying (IEEE Signal Processing Letters)
+SSDQ: Target Speaker Extraction via Semantic and Spatial Dual Querying    ##(IEEE Signal Processing Letters)
 
 This repository contains the official implementation of SSDQ, a framework for target speech extraction that leverages semantic and spatial dual querying strategies.
 
@@ -29,7 +29,7 @@ You can refer to the  for the preparation of the dataset.
 
 Download directly from Hugging Face:
 
-👉 SS-Libri Dataset: https://huggingface.co/datasets/Zhuxinjia/SS-Libri/upload/main
+👉 SS-Libri Dataset: https://huggingface.co/datasets/Zhuxinjia/SS-Libri/tree/main
 
 After downloading, set the dataset root directory in config.yaml or pass it as an argument:
 
