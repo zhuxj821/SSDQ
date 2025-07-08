@@ -30,7 +30,7 @@ network_reference:
   backbone: roberta  
   emb_size: 256      
 network_audio:
-  backbone: at_dprnn
+  backbone: ss_dprnn
   N: 256
   L: 40
   B: 64
