@@ -12,7 +12,7 @@ Start from building the environment
 
 ### 1. Clone the Repository
 
-    git clone https://github.com/Beiming149/SSDQ.git
+    git clone https://github.com/zhuxj821/SSDQ.git
 
     cd SSDQ
 
@@ -24,11 +24,12 @@ Make sure you are using Python 3.8+ and run:
 
 ### 3.Datasets
 
-We use SS-Libri as the main benchmark dataset for speech extraction tasks. Download directly from Hugging Face:
+We use SS-Libri as the main benchmark dataset for speech extraction tasks. 
+You can refer to the  for the preparation of the dataset.
 
-👉 SS-Libri Dataset:
+Download directly from Hugging Face:
 
-Pending update...
+👉 SS-Libri Dataset: https://huggingface.co/datasets/Zhuxinjia/SS-Libri/upload/main
 
 After downloading, set the dataset root directory in config.yaml or pass it as an argument:
 
