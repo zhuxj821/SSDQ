@@ -1,5 +1,5 @@
 # SSDQ 
-SSDQ: Target Speaker Extraction via Semantic and Spatial Dual Querying    ##(IEEE Signal Processing Letters)
+SSDQ: Target Speaker Extraction via Semantic and Spatial Dual Querying  
 
 This repository contains the official implementation of SSDQ, a framework for target speech extraction that leverages semantic and spatial dual querying strategies.
 
@@ -25,6 +25,7 @@ Make sure you are using Python 3.8+ and run:
 ### 3.Datasets
 
 We use SS-Libri as the main benchmark dataset for speech extraction tasks. 
+
 You can refer to the  for the preparation of the dataset.
 
 Download directly from Hugging Face:
