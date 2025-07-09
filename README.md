@@ -26,7 +26,7 @@ Make sure you are using Python 3.8+ and run:
 
 We use SS-Libri as the main benchmark dataset for speech extraction tasks. 
 
-You can refer to the  for the preparation of the dataset.
+You can refer to data/LibriSpeech.md for the preparation of the dataset.
 
 Download directly from Hugging Face:
 
