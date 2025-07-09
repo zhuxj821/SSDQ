@@ -20,22 +20,18 @@ Due to the lack of publicly available datasets containing both spatial and seman
    ``` sh
     python id_sex.py
     ```
-3. **Multi-channel Speech Generation**
-   > Using the original single channel dataset LibriSpeech and gpuRIR tools to generate multi-channel audio with spatial information.
+3. **Multi-channel Speech and  2mix Generation**
+   - Using the original single channel dataset LibriSpeech and gpuRIR tools to generate multi-channel audio with spatial information.
+   - Using the gender corresponding file speaker.csv and multi-channel audio with location information to generate sex_spa.csv, where each group of speeches has at least one different gender and location.
    ``` sh
-    python gpurir.py
+    python data.py
     ```
-   > Organize the files into the following structure
+   > Last, organize the files into the following structure
    ``` sh
      -SS-Libri/
       -train-clean-100/
       -dev-clean/
       -test-clean/
-      -speaker.csv
-      -multi_speech.csv
+      -sex_spa.csv
     ```
-3. **Generate 2mix**
-   > Using the gender corresponding file speaker.csv and the audio location information file multi_stpeech.csv, generate sex_spa.csv, where each group of speeches has at least one different gender and location.
-   ``` sh
-    python data.py
-    ```
+
