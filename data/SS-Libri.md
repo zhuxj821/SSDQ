@@ -8,10 +8,13 @@ Due to the lack of publicly available datasets containing both spatial and seman
 ### Step-by-Step Guide
 1. **Download Dataset**
    > Download the train-clean-100, dev-clean and test-clean three datasets of LibriSpeech according to the [link](https://www.openslr.org/12/).
-   > -LibriSppech
-   > --train-clean-100
-   > --dev-clean
-   > --test-clean
+   ``` sh
+   -LibriSppech/
+      -train-clean-100/
+      -dev-clean/
+      -test-clean/
+      -SPEAKERS.TXT
+   ```
 2. **Speaker ID corresponds to gender**
    >Based on the downloaded SPEAKERS.TXT, obtain the correspondence between speaker IDs and genders,.
    ``` sh
@@ -19,6 +22,7 @@ Due to the lack of publicly available datasets containing both spatial and seman
     ```
 3. **Generate SS-Libri**
    >
+   -
    ``` sh
     python data.py
     ```
