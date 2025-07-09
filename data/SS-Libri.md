@@ -10,7 +10,7 @@ Due to the lack of publicly available datasets containing both spatial and seman
    > Download the train-clean-100, dev-clean and test-clean three datasets of LibriSpeech according to the [link](https://www.openslr.org/12/).
 2. **Speaker ID corresponds to gender**
    >Based on the downloaded SPEAKERS.TXT, obtain the correspondence between speaker IDs and genders,.
-   >``` sh
+   ``` sh
     python id_sex.py
     ```
 4. 
